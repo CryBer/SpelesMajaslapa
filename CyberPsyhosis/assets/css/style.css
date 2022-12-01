@@ -176,7 +176,7 @@ h1,h2,h3,h4{
 .d1{
     background-color: aliceblue;
     justify-content: left;
-    flex-direction: row;
+    margin-bottom: 100px;
 }
 
 .d2{
