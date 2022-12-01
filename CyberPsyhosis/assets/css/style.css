@@ -170,6 +170,11 @@ h1,h2,h3,h4{
 
     background-color: aqua;
 }
+.container__2{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
 .d1{
     background-color: aliceblue;
 }
