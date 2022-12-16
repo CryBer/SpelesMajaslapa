@@ -6,6 +6,9 @@ body{
     font-size: 1rem;
     color: 333;
 }
+html {
+    scroll-behavior: smooth;
+  }
 *,
 *:after,
 *:before {
@@ -91,6 +94,7 @@ h1,h2,h3,h4{
     text-transform: uppercase;
     margin: 5px;
     font-weight: bold;
+    scroll-behavior: smooth;
 }
 
 .nav__link{
@@ -101,6 +105,7 @@ h1,h2,h3,h4{
     margin: 0 5px;
     color: white;
     position: relative;
+    scroll-behavior: smooth;
 
 
     text-decoration: none;
@@ -158,29 +163,25 @@ h1,h2,h3,h4{
     width: 100%;
     height: 100vh;
 
-    background-color: red;
+    background-color: black;
     background-size: cover ;
-}
-.l1__footer{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100px;
-
-    background-color: aqua;
 }
 .container__2{
     width: 100%;
-    max-width: 600px;
+    max-width: 200px;
+    justify-content: space-between;
+    flex-direction: row;
+    
 }
 .d1{
+    display: flex;
+    align-items: center;
     background-color: aliceblue;
-    justify-content: left;
-    margin-top: 100px;
+    justify-content: center;
+    border: 3px solid;
+    border-color: rgb(39, 255, 255);
+    border-radius: 5px;
+    color: brown;
 }
 
-.d2{
-    background-color: darkcyan;
-    flex-direction: row;
-}
+
