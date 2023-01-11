@@ -239,3 +239,20 @@ h1,h2,h3,h4{
 
     text-decoration: none;
 }
+/*Par help bar*/
+#helpbar {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1000;
+}
+#faq-list {
+    background: rgb(56, 196, 86);
+    padding: 10px;
+    border: 1px solid rgb(204, 204, 204);
+}
+#answer {
+    background: rgb(64, 221, 90);
+    padding: 10px;
+    margin-top: 10px;
+}
