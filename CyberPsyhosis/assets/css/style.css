@@ -48,12 +48,15 @@ h1,h2,h3,h4{
     font-weight: 700;
     text-align: center;
     line-height: 1;
+    color: white;
 }
 .intro__subtitle{
     font-size: 60px;
     text-transform: uppercase;
     text-align: center;
     line-height: 1.7;
+    font-weight: 500;
+    color: white;
 }
 /*header - augšējā daļa*/
 
@@ -61,7 +64,7 @@ h1,h2,h3,h4{
     width: 100%;
 
     margin: 0;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Raleway', sans-serif;
     
     line-height: 1.6;
     font-size: 1rem;
