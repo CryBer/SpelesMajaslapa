@@ -19,7 +19,7 @@
             <nav class="nav">
                 <a class="nav__link" href="#about">About</a>
                 <span>|</span>
-                <a class="nav__link" href="#about">Dowland</a>
+                <a class="nav__link" href="#about">Download</a>
             </nav>
             <nav class="nav__language">
                 <a class="nav__link__language" href="../CyberPsyhosis/ru_index.html">RU</a>
@@ -50,29 +50,29 @@
     </div>
 </div>
 <div>
-    <div class="dowland">
-        <button class="but-dow">Dowland</button>
-    </div>
-
-    <div id="helpbar">
-        <button id="helpbar-button">Palīdzība</button>
-        <div id="faq-list" style="display:box;">
-          <h2>Bieži uzdotie jautājumi</h2>
-          <ul id="faq">
-            <li>
-              <a href="#about" data-answer="Atbilde uz jautājumu 1">Ko darīt, ja spēle nestrādā?</a>
-            </li>
-            <li>
-              <a href="#about" data-answer="Atbilde uz jautājumu 2">Vai šī spēle nesatur kaut kādus vīrusus un ir droša?</a>
-            </li>
-            <li>
-              <a href="#about" data-answer="Atbilde uz jautājumu 3">Cik jums samaksāja?</a>
-            </li>
-          </ul>
-          <p id="answer" style="display:box;"></p>
-        </div>
-      </div>
-
+    <div class="download">
+        <button class="but-dow">Download</button>
 </div>
+    <html>
+        <title>Biežāk Uzdotie Jautājumi</title>
+        <style>
+          .faq dt {
+            cursor: pointer;
+            font-weight: bold;
+          }
+          .faq dd {
+            display: none;
+            margin-left: 1em;
+          }
+        </style>
+        <h1>Biežāk Uzdotie Jautājumi</h1>
+        <button id="showFaq">Rādīt Jautājumus</button>
+        <dl class="faq">
+          <dt data-answer="Lai piereģistrētos, noklikšķiniet uz 'Piereģistrēties' un aizpildiet nepieciešamo informāciju.">Kā man piereģistrēties?</dt>
+          <dt data-answer="Lai atjaunotu paroli, noklikšķiniet uz 'Aizmirsāt paroli?' un sekojiet norādījumiem.">Kā man atjaunot paroli?</dt>
+          <dt data-answer="Lai sazinātos ar atbalsta dienestu, noklikšķiniet uz 'Atbalsts' un izmantojiet tālruni vai e-pastu.">Kā man sazināties ar atbalsta dienestu?</dt>
+        </dl>
+        <script src="faq.js"></script>
+    </html>  
 </body>
 </html>

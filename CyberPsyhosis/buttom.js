@@ -1,16 +1,16 @@
-const button = document.getElementById("helpbar-button");
-const faqList = document.getElementById("faq-list");
-const faqLinks = document.querySelectorAll("#faq a");
-const answer = document.getElementById("answer");
+const showFaqButton = document.getElementById("showFaq");
+const faqList = document.querySelector(".faq");
 
-button.addEventListener("click", function () {
-    faqList.style.display = faqList.style.display === "none" ? "block" : "none";
-});
-
-faqLinks.forEach(function (link) {
-    link.addEventListener("click", function (event) {
-        event.preventDefault();
-        answer.innerHTML = this.dataset.answer;
-        answer.style.display = "block";
+showFaqButton.addEventListener("click", function() {
+  const dts = faqList.querySelectorAll("dt");
+  dts.forEach(function(dt) {
+    dt.addEventListener("click", function() {
+      const answer = this.getAttribute("data-answer");
+      const dd = document.createElement("dd");
+      dd.textContent = answer;
+      this.parentNode.appendChild(dd);
     });
+    dt.style.display = "block";
+  });
+  this.style.display = "none";
 });
