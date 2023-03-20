@@ -87,6 +87,14 @@ h1,h2,h3,h4{
     max-width: 1000px;
     margin: 0 auto;
 }
+.p{
+    font-size: 25px;
+    font-weight: 200px;
+    text-align: center;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+}
+
 
 /*intro*/
 .intro{
@@ -94,7 +102,7 @@ h1,h2,h3,h4{
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
 
     background: url(../images/intro.jpg) center no-repeat;
     background-size: cover ;
@@ -155,7 +163,7 @@ h1,h2,h3,h4{
 .header__logo{
     font-size: 2rem;
 }
-/*nav - pogas "About" un "Downland"*/
+/*nav - pogas "About" un "Downland" un "Instruction"*/
 .nav{
     text-transform: uppercase;
     margin: 5px;
@@ -317,7 +325,7 @@ h1,h2,h3,h4{
     padding: 10px;
     border: 1px solid rgb(161, 46, 46);
 }
-answer {
+.answer {
     background: rgb(20, 87, 31);
     padding: 10px;
     margin-top: 10px;
