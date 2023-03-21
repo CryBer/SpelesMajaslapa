@@ -1,0 +1,332 @@
+body{
+    margin: 0;
+    
+    line-height: 1.6;
+    font-size: 1rem;
+    color: 333;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+/*feedback*/
+body {
+	font-family: Arial, sans-serif;
+	background-color: rgb(255, 255, 255);;
+}
+
+h5 {
+	text-align: center;
+	color: #333;
+	margin-top: 50px;
+}
+
+.feedback-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: none; /* hide the feedback list by default */
+}
+
+.feedback-list li {
+	background-color: rgb(255, 255, 255);;
+	margin-bottom: 20px;
+	padding: 20px;
+	box-shadow: 0px 2px 5px rgba(22, 10, 85, 0.1);
+}
+
+.feedback-list li h6 {
+	font-size: 14px;
+	color: rgb(136, 132, 132);
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.feedback-list li .feedback-text {
+	font-size: 14px;
+	color: rgb(136, 132, 132);
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.feedback-list li .feedback-date {
+	font-size: 10px;
+	color: rgb(136, 132, 132);
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.feedback-btn {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 20px;
+	font-size: 16px;
+	color: rgb(136, 132, 132);
+	background-color: rgb(255, 255, 255);;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.feedback-btn:hover {
+	background-color: rgb(255, 255, 255);;
+}
+
+h1,h2,h3,h4{
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.p{
+    font-size: 25px;
+    font-weight: 200px;
+    text-align: center;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+}
+
+
+/*intro*/
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 150vh;
+
+    background: url(../images/intro.jpg) center no-repeat;
+    background-size: cover ;
+}
+.intro__inner{
+    width: 100%;
+    max-width: 666px;
+    margin: 0 auto;
+}
+
+.intro__title{
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1;
+    color: white;
+}
+.intro__subtitle{
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.7;
+    font-weight: 500;
+    color: white;
+}
+/*header - augšējā daļa*/
+
+.header{
+    width: 100%;
+
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    
+    line-height: 1.6;
+    font-size: 1rem;
+    color: white;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+}
+
+.header__inner{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.header__container{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__logo{
+    font-size: 2rem;
+}
+/*nav - pogas "About" un "Downland" un "Instruction"*/
+.nav{
+    text-transform: uppercase;
+    margin: 5px;
+    font-weight: bold;
+    scroll-behavior: smooth;
+}
+
+.nav__link{
+    transition: color .35s linear;
+    
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5px;
+    color: white;
+    position: relative;
+
+
+    text-decoration: none;
+}
+
+
+.nav__link:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    
+
+    background-color: red;
+    opacity: 0;
+    
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    transition: opacity .3s linear;
+}
+
+.nav__link:hover{
+    color:red;
+}
+
+.nav__link:hover::after{
+    opacity: 1;
+}
+
+/*nav__language - valodes*/
+.nav__language{
+    margin: 3px;
+}
+.nav__link__language{
+    transition: color .35s linear;
+    
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 3px;
+    color: white;
+    position: relative;
+    font-weight: 300;
+
+    text-decoration: none;
+}
+.nav__link__language:hover{
+    color: aqua;
+}
+
+/*otrs bloks*/
+
+.block1{
+    flex-direction: column;
+    display: flex;
+    background-color: black;
+    color: aqua;
+
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.colon1{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(252, 62, 72);
+    border-radius: 4px;
+    padding: 5px;
+    width: 1000px; 
+    background-color:rgb(14, 58, 71); 
+    padding: 10px;
+    padding-bottom: 120px;
+}
+.colon1 p{
+    padding-top: 100px;
+    align-items: center;
+}
+
+.container1{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.table{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+
+}
+.colon2{
+    font-size: 20px;
+    width: 1000px;
+    border: 4px solid royalblue;
+    border-radius: 2px;
+    background-color: rgb(14, 58, 71);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.game{
+    color: red;
+    border-bottom: 3px solid red;
+    padding-bottom: 3px;
+}
+.game__text{
+    padding-top: 10px;
+    
+}
+.us{
+    border-bottom: 2px solid red;
+    color: red;
+    padding-bottom: 3px;
+}
+/*dowland block*/
+.dowland{
+    background-color: rgb(0, 0, 0);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.but-dow{
+    border: 3px solid blue;
+    color: blue;
+    border-radius: 5px;
+    font-size: 30px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    text-decoration: none;
+}
+/*Par help bar*/
+.helpbar {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1000;
+}
+.faq-list {
+    background: rgb(22, 146, 49);
+    padding: 10px;
+    border: 1px solid rgb(161, 46, 46);
+}
+.answer {
+    background: rgb(20, 87, 31);
+    padding: 10px;
+    margin-top: 10px;
+}

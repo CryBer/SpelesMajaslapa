@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>CyberPsyhosis Главная страница</title>
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<header class="header">
+    <div class="header__container">
+        <div class="header__inner">
+            <div class="header__logo">
+                CyberPsyhosis
+            </div>
+            <div class="nav">
+                <a class="nav__link" href="#about">О нас</a>
+                <span>|</span>
+                <a class="nav__link" href="#about">Скачать</a>
+            </div>
+            <nav class="nav__language">
+                <a class="nav__link__language" href="../CyberPsyhosis/index.html">EN</a>
+                <span>/</span>
+                <a class="nav__link__language" href="../CyberPsyhosis/lv_index.html">LV</a>
+                <span>/</span>
+                <a class="nav__link__language" href="../CyberPsyhosis/instruction.html">Instruction</a>
+                <span>/</span>
+                <a class="nav__link__language" href="../CyberPsyhosis/login.html">login</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+
+<div class="intro">
+    <div class="container">
+        <div class="intro__inner">
+            <h1 class="intro__title">CyberPsyhosis</h1>
+            <h3 class="intro__subtitle">New reality in game</h3>
+        </div>
+    </div>
+</div>
+<div class="block1">
+    <div class="container1">
+        <table class="table">
+            <tr id="about">
+                <td class="colon1"><h1 class="us">About Us</h1><p>We offer you to try out our game, in this game you will be able to feel yourself in a new game world with wonderful graphics. Our pride is the smile of our customers.</p></td>
+                <td class="space"></td>
+                <td class="colon2"><h1 class="game">About Game</h1><span class="game__text">One of the most popular Cyberpunk games is "CyberPsyhosis," developed by CD Projekt Red and released in 2023. The game is set in a futuristic city called Night City, and follows the story of a mercenary named V who becomes embroiled in a complex conspiracy involving powerful corporations and dangerous criminals. The game received a lot of attention and anticipation before its release, but also faced criticism for its initial technical issues on certain platforms.</span></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div>
+    <tr id="download">
+    <div class="download">
+        <button class="but-dow">Download</button>
+    </tr>
+    </div>
+    <div id="help-bar">
+        <h3>Frequently asked questions</h3>
+        <div id="help-bar-questions">
+          <ul>
+            <li><a href="help-bar-answers" onclick="showAnswer('question1');return false;">How to download game?</a></li>
+            <li><a href="help-bar-answers" onclick="showAnswer('question2');return false;">What i have to do if game isnt working?</a></li>
+            <li><a href="help-bar-answers" onclick="showAnswer('question3');return false;">How to leave feedback?</a></li>
+          </ul>
+        </div>
+        <div id="help-bar-answers">
+          <div id="answer-question1" style="display:grid;">
+            <h4>How to download game?</h4>
+            <p>There is a Download button above the questions, press it!</p>
+            <pre></pre>
+          </div>
+          <div id="answer-question2" style="display:grid;">
+            <h4>What i have to do if game isnt working?</h4>
+            <p>Try reloading or restarting your computer!</p>
+            <pre></pre>
+          </div>
+          <div id="answer-question3" style="display:grid;">
+            <h4>How to leave feedback?</h4>
+            <p>press the feedback button and you can knock us down!</p>
+            <pre>
+
+</div>
+<div>
+
+    <h5>Feedback List</h5>
+	<button class="feedback-btn" onclick="toggleFeedback()">Show Feedback</button>
+
+	<script>
+		function toggleFeedback() {
+			var feedbackList = document.getElementById("feedback-list");
+			if (feedbackList.style.display === "none") {
+				feedbackList.style.display = "block";
+			} else {
+				feedbackList.style.display = "none";
+			}
+		}
+	</script>
+
+    <ul class="feedback-list" id="feedback-list">
+		<li>
+			<h6>John Smith</h6>
+			<p class="feedback-text">"Great service! Will definitely use again."</p>
+			<p class="feedback-date">March 1, 2023</p>
+		</li>
+		<li>
+			<h6>Jane Doe</h6>
+			<p class="feedback-text">"I had a great experience with this company. Highly recommend."</p>
+			<p class="feedback-date">February 28, 2023</p>
+		</li>
+		<li>
+			<h6>Bob Johnson</h6>
+			<p class="feedback-text">"The product was exactly what I was looking for. Thanks!"</p>
+			<p class="feedback-date">February 25, 2023</p>
+		</li>
+        </li>
+        <li>
+        <h6>Developers</h6>
+            <p class="feedback-text">"e-mail:lololoshka@gmail.com nummber:20932221"</p>
+            <p class="feedback-date">Up to date</p>
+        </li>
+	</ul>
+
+</div>
+</body>
+</html>
